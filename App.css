@@ -1,0 +1,92 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
+  tr {
+    border: solid 1px;
+  }
+  
+  /* --------------------------------------------   */
+  /* Big purple red table with rounded edges        */
+  /* --------------------------------------------   */
+  .purpleRed table {
+    background-color: #3d3b63;
+    border-collapse: collapse;
+    border-radius: 10px;
+    font-size: 1em;
+    color: white;
+    overflow: hidden;
+    width: auto;
+    /*max-width: 100%;*/
+  }
+  .purpleRed thead {
+    background-color: #f3646c;
+  }
+  .purpleRed th {
+    letter-spacing: 0.3px;
+    text-shadow: 0 1px 1px #2b2a466b;
+  }
+  .purpleRed table > thead > tr > th {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .purpleRed td {
+    background-color: #3d3b63;
+    color: white;
+  }
+  .purpleRed td strong {
+    color: white;
+  }
+  .purpleRed td,
+  .purpleRed th {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 11px;
+  }
+  .purpleRed thead th:hover,
+  .purpleRed thead tr:hover,
+  .purpleRed th:hover {
+    background-color: #f3646c;
+  }
+  .purpleRed tbody tr:hover td,
+  .purpleRed tbody tr:hover td a {
+    background-color: #a32959;
+    color: white;
+  }
